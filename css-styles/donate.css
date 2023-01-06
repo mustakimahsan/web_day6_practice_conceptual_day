@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* header section start */
+/* banner */
+header {
+  background-image: url(/images/donation13.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 380px; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.banner-text {
+  color: #FFFFFF; /*text color*/
+  text-align: center;
+  padding: 150px 200px;
+}
+.banner-title , .donate-today-title {
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.banner-description , .donate-today-descriction{
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+.btn-primary {
+  background-color:#e84a5F ; /*Button Color*/
+  border: none; /*Button Border*/
+  color: #FFFFFF; /*button text color */
+  font-size: 20px; /*Button Size*/
+  border-radius: 8px; /*Rounded Button*/
+  width: 150px; /*Button Width*/
+  height: 50px; /*Button height*/
+  margin-top: 30px;
+}
+/* header section end */
+/* donate-today section start */
+.donate-today{
+  text-align: center;
+  padding: 150px 200px;
+}
+
+ul{
+  display:flex;
+  list-style-type: none;
+  gap: 24px;
+}
+.money-button{
+  background-color:#F9F6EE; /*Button Color*/
+  border: none; /*Button Border*/
+  color: #171717; /*button text color */
+  font-size: 30px; /*Button Size*/
+  border-radius: 8px; /*Rounded Button*/
+  width: 150px; /*Button Width*/
+  height: 100px; /*Button height*/
+  font-weight: 700;
+  /* margin: 50px 10px;
+  padding: 5px; */
+}
+#special-button{
+  background-color:#fad5da ; /*Button Color / #fad5da color description : Light grayish red.*/
+  border: 2px solid #e84a5F; /*Colored Button Border*/
+  color: #e84a5F; /*button text color */
+  font-size: 30px; /*Button Size*/
+  border-radius: 8px; /*Rounded Button*/
+  width: 150px; /*Button Width*/
+  height: 100px; /*Button height*/
+  font-weight: 700;
+  /* margin: 50px 10px;
+  padding: 5px; */
+}
+#other-amount{
+  font-size: 15px;
+  border: none;
+}
+/* donate-today section end */
+/* Our Donate Plan section */
+
